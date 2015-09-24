@@ -1,0 +1,62 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require main
+*= require mobile
+*= require_self
+*/
+.panel {
+  width: 100%;
+  text-align: center;
+  border-color: #0B6D4B;
+  border-style: solid;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+  .panel .panel-heading {
+    background-color: #0B6D4B;
+    color: #FFFFFF;
+    height: 40px;
+    font-size: 30px; }
+  .panel .panel-body {
+    padding: 50px; }
+
+.btn, .primary, .secondary {
+  width: 90px;
+  height: 40px;
+  font-size: 16px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px; }
+
+.primary {
+  background-color: #0B6D4B;
+  color: #FFFFFF; }
+
+.secondary {
+  background-color: #629A74; }
+
+.form {
+  width: 50%; }
+  .form .form-input {
+    width: 100%;
+    display: block; }
+  .form .form-label {
+    float: left;
+    font-size: 24px; }
+
+.container {
+  width: 40%; }
+
+.center {
+  margin-left: 0;
+  margin-right: 0;
+  margin: auto; }
